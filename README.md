@@ -4,7 +4,7 @@ Decorator Pattern
 
 ## Installation
 
-Use compsoser 
+Use the package manager [composer](https://getcomposer.org/) to install
 
 ```bash
 composer require kyimyohan/php-design-patterns
