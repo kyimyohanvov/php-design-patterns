@@ -20,4 +20,4 @@ echo $decorator->getPrice();
 
 ## License
 
-[MIT](/LINCENSE.md)
+[MIT](/LICENSE.md)
