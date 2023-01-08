@@ -9,10 +9,9 @@ composer require kyimyohan/php-design-patterns
 touch index.php
 ```
 
-Decorator Pattern
-
 ## Usage
-Write following code in index.php
+
+###Decorator Pattern
 
 ```php
 <?php
@@ -22,8 +21,6 @@ use Kyimyohan\PhpDesignPatterns\DecoratorPattern\BubbleTea;
 use Kyimyohan\PhpDesignPatterns\DecoratorPattern\Jelly;
 use Kyimyohan\PhpDesignPatterns\DecoratorPattern\Pudding;
 
-
-require 'vendor/autoload.php';
 
 $decorator = new Decorator(new Pudding(new Jelly(new BubbleTea)));
 echo $decorator->getDescription();
