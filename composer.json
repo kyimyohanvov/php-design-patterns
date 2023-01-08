@@ -1,0 +1,19 @@
+{
+    "name": "kyimyohan/php-design-patterns",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kyimyohan\\PhpDesignPatterns\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kmhvov",
+            "email": "kyimyohanvov@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
